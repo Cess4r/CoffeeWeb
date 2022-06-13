@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100; 
+}
+
+
+nav{
+   width: auto;
+   display: flex;
+   justify-content: space-between;
+   padding: 12px;
+   background-color:rgb(66, 16, 16);
+
+}
+ul li{
+    display:inline;
+}
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 400px;
+    background-image: url(food-drink-coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.des{
+    padding: 5%;
+    width: 600px;
+    margin-right: 7%;
+}
+.des h1{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 34pt;
+}
+.sepOne{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 4% 5% 3% 5%;
+    background-color: rgb(66, 16, 16);
+}
+.sepTwo{
+    background-color: beige;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.one, .two, .three{
+    width: 100%;
+} 
+.order p{
+   height: 150px;
+   text-indent: 1.5pc;
+}
+
+.cards{
+    width: 100%;
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-auto-flow: dense;
+    gap: 2em;
+}
+
+.order p, .order div{
+    color: black;
+    text-align: justify;
+    
+}
+.button{
+    display: flex;
+    width: fit-content;
+    border: 2px rgb(66, 16, 16) solid;
+    padding: 1%;
+}
+.container{
+    padding: 10% 0 10% 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sep3{
+    padding: 4% 5% 4% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-image: url(cokies.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    width: 100%;
+    
+    background-color: rgb(66, 16, 16);
+}
+.ofert{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.iden1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.iden{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+
+}
+.order .titl h2{
+    padding-bottom: 10px;
+    color:rgb(66, 16, 16);
+    display: flex;
+    justify-content: center;
+}
+.box{
+    border-radius: 4px;
+    height: fit-content; 
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 224, 191);
+    color: rgb(66, 16, 16);
+}
+.content h4, .content h3{
+    color:rgb(66, 16, 16);
+}
+.content{
+    padding: 3%;
+    text-align: center;
+    color:rgb(66, 16, 16);
+}
+.special{
+    width: 50%;
+}
+.contf{
+    width: 90%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0 5% 0 5%;
+    align-items: center;
+
+}
+.cols{
+    display: flex;
+    align-items: center;
+}
+
+.lunm{
+    margin-right: 20px;
+    font-size: small;
+    width:fit-content;
+    padding-right: 12px;
+}
+.lunm ul li{
+    display: list-item;
+    list-style: none;
+}
+
+.cel{
+    width: 100%;
+    /* margin-right: 5px; */
+    display: flex;
+}
+
+.contact{
+    display: inline-flex;
+    width: 120px;
+    font-size: xx-small;
+}
